@@ -1,0 +1,73 @@
+body {
+    display: grid;
+    grid-template-columns: [a] 100px [b] 65fr [c] 35fr [d];
+    grid-template-rows: [first] 100px [second] minmax(300px, 1fr) [third] 150px [fourth];
+    /* grid-template-areas: "logo menu menu" "" ""; */
+    min-height: 100vh;
+    margin: 0;
+}
+
+.logo {
+    background-color: chartreuse;
+    grid-column: a / b ;
+    grid-row: first / second ;
+    
+}
+
+.menu {
+    background-color: cyan;
+    grid-column: b / d;
+    grid-row: first / second;
+    
+}
+.nav {
+    background-color: rgb(12, 11, 10);
+    grid-column: c / d;
+    grid-row: second / fourth;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color:white; 
+}
+
+.list {
+    background-color: blueviolet;
+    grid-column: b / c;
+    grid-row: second / third;
+    grid-column-start: ;
+    grid-column-end: ;
+
+}
+
+.news {
+    background-color: brown;
+    grid-column: a / b;
+    grid-row: second / third;
+    
+}
+
+.footer {
+    background-color: crimson;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    
+}
+
+
+.logo,
+.menu,
+.list,
+.news,
+.footer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: black; 
+}

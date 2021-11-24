@@ -1,0 +1,26 @@
+{
+  "name": "fe2809",
+  "version": "1.0.0",
+  "description": "https://github.com/AndreyKozych?tab=repositories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyKozych/fe2809.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyKozych/fe2809/issues"
+  },
+  "homepage": "https://github.com/AndreyKozych/fe2809#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-recommended": "^4.1.0",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^23.0.0"
+  }
+}

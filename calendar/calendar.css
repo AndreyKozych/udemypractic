@@ -1,0 +1,226 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+  }
+
+  .calendar {
+    
+    padding: 80px 50px 150px 50px;
+    
+    position: relative;
+    left: 60%;
+    width: 600px;
+    height: 1795px;
+        
+    background: rgba(42, 46, 65, 0.7);
+
+    text-align: center;
+
+  }
+
+  /* calendar month */
+  .march__color:hover, .march__color:focus {
+    transform: scale(1.20);
+  border-bottom-color: currentColor;
+  outline: none;
+  cursor: pointer;
+
+
+  }
+  .calendar__month {
+      display: flex;
+      justify-content: space-between;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 42px;
+      color: #FFFFFF;
+      }
+
+  /* линия */
+  .calendar__month::after {
+    content: "";
+    position: absolute;
+    width: 77%;
+    height: 2px;
+    background: #000000;
+    opacity: 0.17;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+/* calendar day */
+
+.days {
+  padding-left: 60px;
+    
+
+  display: flex;
+
+  flex-wrap: wrap;
+  
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 500px;
+    
+}
+.days li {
+  width: 56px;
+  height: 56px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+.days__item  {
+    display: flex;
+    
+    list-style: none;
+}
+
+.days__item__title  {
+   padding-top: 110px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+/* week */
+
+.week {
+  position: relative;
+  text-align: center;
+  
+
+}
+
+.week__item {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+max-width: 400px;
+}
+.week_color:hover, .week_color:focus{
+  background: #3C82F9;;
+    border-bottom-color: currentColor;
+    outline: none;
+    border-radius: 100%;
+    transform: scale(1.20);
+    cursor: pointer;
+}
+
+
+.week__item::after {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 2px;
+  background: #000000;
+  opacity: 0.17;
+  bottom: -45px;
+  left: 55%;
+  transform: translateX(-50%);
+  
+}
+
+
+
+
+
+  /* categories */
+.footer {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 150px;
+  max-width: 400px;
+  
+}
+.categories {
+  display: flex;
+  width: 210px;
+  height: 50px;
+  padding: 0 0 0 50px;
+  
+}
+
+.calendar__categories {
+  margin-top: 100px;
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  gap: 30px;
+  
+    
+  
+}
+
+.calendar__categories__buttom {
+  
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  width: 185px;
+  height: 50px;
+  
+  
+  
+}
+.finance {
+  background: #8576ED;
+  min-width: 200px;
+  height: 80px;
+  border-radius: 12px;
+  align-self: center;
+  
+}
+
+.finance:hover, .finance:focus {
+  transform: scale(1.20);
+  border-bottom-color: currentColor;
+  outline: none;
+  cursor: pointer;
+}
+
+.management {
+  background: #F39946;
+  min-width: 200px;
+  border-radius: 12px;
+  
+}
+.management:hover, .management:focus {
+  transform: scale(1.20);
+  border-bottom-color: currentColor;
+  outline: none;
+  cursor: pointer;
+}
+
+.design {
+  background: #FF467E;
+  min-width: 200px;
+  border-radius: 12px;
+}
+
+.design:hover, .design:focus {
+  transform: scale(1.20);
+  border-bottom-color: currentColor;
+  outline: none;
+  cursor: pointer;
+}
+
+
+  
+    
